@@ -1,0 +1,27 @@
+{
+  "name": "sqsme",
+  "version": "0.0.1",
+  "description": "Simple AWS SQS standard queue message receiver based on a generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krizz/sqsme.git"
+  },
+  "keywords": [
+    "AWS",
+    "SQS",
+    "generator"
+  ],
+  "author": "https://github.com/Krizz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Krizz/sqsme/issues"
+  },
+  "homepage": "https://github.com/Krizz/sqsme#readme",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.301.0"
+  }
+}
